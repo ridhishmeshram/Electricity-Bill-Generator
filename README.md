@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    // Write C
     int coustmer_id, coustmer_telephone_no;
     char from_month[20], to_month[20];
     char status;
@@ -8,8 +9,10 @@ int main() {
     char coustmer_name[50];
     int choice;
     int unit_use, rate_per_unit, total;
+    
     printf("*************** ELECTRICITY BILL ****************\n");
     printf("=================================================\n");
+    
     printf("Enter customer name: ");
     scanf("%s", coustmer_name);
     printf("Enter customer ID: ");
@@ -18,12 +21,14 @@ int main() {
     scanf("%d", &coustmer_telephone_no);
     printf("Enter status (single character): ");
     scanf(" %c", &status);
+    
     printf("=================================================\n");
     printf("Customer Name: %s\n", coustmer_name);
     printf("Customer ID: %d\n", coustmer_id);
     printf("Customer Telephone No: %d\n", coustmer_telephone_no);
     printf("Status: %c\n", status);
     printf("=================================================\n");
+ 
     printf("Consume from month: ");
     scanf("%s", from_month);
     printf("Consume to month: ");
@@ -38,11 +43,7 @@ int main() {
     printf("Total: %d\n", total);
     printf("=================================================\n");
     
-    printf("Paid up to date: ");
-    scanf("%s", date);
-    printf("=================================================\n");
-    printf("******************* THANK YOU ********************\n");
+printf("******************* THANK YOU ********************\n");
     
     return 0;
 }
-# Electricity-Bill-Generator
