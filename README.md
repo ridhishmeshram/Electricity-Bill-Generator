@@ -9,7 +9,7 @@ int main() {
     char coustmer_name[50];
     int choice;
     int unit_use, rate_per_unit, total;
-    
+    fdfsd
     printf("*************** ELECTRICITY BILL ****************\n");
     printf("=================================================\n");
     
